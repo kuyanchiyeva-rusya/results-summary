@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'HankenBold' ;
+    src: url("../assets/fonts/static/HankenGrotesk-Bold.ttf");
+}
+@font-face {
+    font-family: 'HankenExtraBold' ;
+    src: url("../assets/fonts/static/HankenGrotesk-ExtraBold.ttf");
+}
+@font-face {
+    font-family: 'HankenMedium' ;
+    src: url("../assets/fonts/static/HankenGrotesk-Medium.ttf");
+}
+body{
+    background-color: white;
+    font-family: HankenMedium, sans-serif;
+}
+.container{
+    margin-left: 353px;
+    width: 650px;
+    background-color: white;
+    display: flex;
+    margin-top: 130px;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+}
+.header-text2{
+    font-size: 18px;
+    text-align: left;
+    color: black;
+    margin: 35px;
+    font-family: HankenBold, sans-serif;
+}
+
+.card-1{
+    background-color: #FFF5F5;
+    margin: 10px 35px;
+    display: flex;
+    border-radius: 10px;
+    height: 55px;
+    width: 280px;
+}
+img{
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    margin-top: 8px
+}
+.card-text1{
+    color:  hsl(0, 100%, 67%);
+    font-family: HankenMedium, sans-serif;
+    padding: 15px 0;
+    text-align: left;
+}
+.lightgrey{
+    padding: 15px 5px;
+    color: #9C96A2;
+}
+.card-2{
+    background-color: #FFFBF2;
+    display: flex;
+    border-radius: 10px;
+    height: 55px;
+    width: 280px;
+    margin: 10px 35px;
+}
+.card-text2{
+    color: hsl(39, 100%, 56%);
+    font-family: HankenMedium, sans-serif;
+    padding: 15px 0;
+    text-align: left;
+}
+.card-3{
+    background-color: #F2FBFA;
+    display: flex;
+    border-radius: 10px;
+    height: 55px;
+    width: 280px;
+    margin: 10px 35px;
+}
+.card-text3 {
+    color:  hsl(166, 100%, 37%);
+    font-family: HankenMedium, sans-serif;
+    padding: 15px 0;
+    text-align: left;
+}
+.card-4 {
+    background-color: #F3F3FD;
+    display: flex;
+    border-radius: 10px;
+    height: 55px;
+    width: 280px;
+    margin: 10px 35px;
+}
+.card-text4 {
+    color:   hsl(234, 85%, 45%);
+    font-family: HankenMedium, sans-serif;
+    padding: 15px 0;
+    text-align: left;
+}
+span{
+    color: black;
+    font-family: HankenExtraBold, sans-serif;
+    margin-left: 100px;
+    text-align: right;
+
+}
+.img3, .img4 {
+    margin-left: 110px;
+}
+button{
+    background-color: #303B59;
+    color: white;
+    margin: 10px 35px;
+    padding: 15px 110px;
+    border-radius: 30px;
+    font-size: 15px;
+    border: 1px solid black;
+}
+button:hover{
+    background-image: linear-gradient(to bottom,  hsl(252, 100%, 67%), hsl(241, 81%, 54%));;
+}
+div.first-card {
+    width: 300px;
+    background-image: linear-gradient(to bottom,  hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+}
+.header-text1{
+    font-size: 18px;
+    text-align: center;
+    color: #D2C7FF;
+    margin: 25px;
+    font-family: HankenBold, sans-serif;
+}
+h1{
+    font-size: 60px;
+    font-family: HankenBold, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+p.circle-text{
+    font-size: 15px;
+    color:  #8F83FF;
+    font-weight: 700;
+}
+.circle {
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(to bottom,  hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 100%;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 60px;
+}
+h2{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+}
+p.text{
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+    color:  hsl(241, 100%, 89%);
+    margin: 15px 30px;
+    padding: 10px;
+}
